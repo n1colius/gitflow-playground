@@ -12,6 +12,8 @@ formEl.addEventListener("submit", (event) => {
   getWeatherData(cityValue);
 });
 
+console.log('Perubahan stash contoh');
+
 async function getWeatherData(cityValue) {
   try {
     const response = await fetch(
