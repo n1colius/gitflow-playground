@@ -12,7 +12,7 @@ formEl.addEventListener("submit", (event) => {
   getWeatherData(cityValue);
 });
 
-console.log('Perubahan stash contoh');
+console.log('Perubahan stash contoh - Update Feature 2');
 
 async function getWeatherData(cityValue) {
   try {
