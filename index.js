@@ -15,6 +15,8 @@ formEl.addEventListener("submit", (event) => {
 console.log('Perubahan stash contoh - Update Feature 2');
 console.log('Perubahan stash contoh - Untuk fitur baru di branch development-niko-workbranch');
 
+console.log('<p>Metode Merge Request</p>');
+
 async function getWeatherData(cityValue) {
   try {
     const response = await fetch(
