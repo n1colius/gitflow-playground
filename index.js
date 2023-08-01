@@ -12,9 +12,6 @@ formEl.addEventListener("submit", (event) => {
   getWeatherData(cityValue);
 });
 
-console.log('Perubahan stash contoh - Update Feature 2');
-console.log('Perubahan stash contoh - Untuk fitur baru di branch development-niko-workbranch');
-
 console.log('<p>Metode Rebase - Update Feature Branch - Commit Rev 2</p>');
 console.log('<p>Metode Rebase - Update Feature Branch Rev 2 - Commit Rev 2</p>');
 
